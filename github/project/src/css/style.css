@@ -19,6 +19,12 @@ body html { height: 100%;}
  padding-left: 220px;
 }*/
 
+img {
+display: inline-block;
+height: auto;
+max-width: 100%;
+}
+
 #sidebar-wrapper {
  z-index: 1000;
  left: 220px;
