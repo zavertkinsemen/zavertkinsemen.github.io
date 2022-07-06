@@ -95,13 +95,16 @@ h6 {
 
 /*--------------------*/
 body {
-  font-family: "clinicapro", sans-serif;
+  font-family: "Clinica Pro Regular", sans-serif;
   background-color: #e9e6e1;
 }
 
 @font-face {
-  font-family: clinicapro;
-  src: url(C:UserssemenOneDriveДокументыДачаsrc\f ont\c linicaPro.ttf);
+  font-family: "Clinica Pro Regular";
+  src: url("ClinicaPro-Regular.eot");
+  src: url("ClinicaPro-Regular.eot?#iefix") format("embedded-opentype"), url("ClinicaPro-Regular.woff") format("woff"), url("ClinicaPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 .header {
   background-color: #e9e6e1;
